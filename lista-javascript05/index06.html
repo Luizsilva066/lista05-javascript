@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA05</title>
+</head>
+
+<body>
+    <script>
+        let num = Number(prompt("Digite o 1º número:"));
+        let maior = num;
+        let menor = num;
+
+        for (let i = 2; i <= 10; i++) {
+            num = Number(prompt("Digite o " + i + "º número:"));
+
+            if (num > maior) maior = num;
+            if (num < menor) menor = num;
+        }
+
+        alert("Maior: " + maior + "\nMenor: " + menor);
+
+    </script>
+</body>
+
+</html>
